@@ -1,2 +1,5 @@
-this is a test 
+that is a test 
 hello 
+Today is Wednesday,Sunny day,May 2th 2018
+Pracice vim is fun!
+vim is interesting
