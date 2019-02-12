@@ -9,11 +9,9 @@ def fib(n):
 
 fib(1000)
 
-
 # Return the N number of fibonacci series
 
 def fib1(n):
-    a, b = 0, 1
     if n == 0:
         return 0
     if n == 1:
@@ -27,6 +25,17 @@ def fib1(n):
 
 def fib2(n):
     for i in range(n):
-        print(fib1(i))
+        print(fib1(i), end=' ')
 
 fib2(10)
+
+
+# Print fibonacci series up to n
+def fib3(n):
+
+    a, b = 0, 1
+    while a <n:
+        print(a, end=' ')
+        a, b = b, a+b
+    print()
+fib3(1000)
