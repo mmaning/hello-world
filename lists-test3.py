@@ -8,14 +8,14 @@ def findnum (n, k):
 #    print(nlist)
     print(nlist[k])
 
-# findnum(100, 2)
+findnum(10, 2)
 
-def findnum1 (n, k):
-    nlist = [random.randrange(10000) for x in range(n)] 
-    for i in nlist:
-        
+#def findnum1 (n, k):
+    #nlist = [random.randrange(10000) for x in range(n)] 
+    #for i in nlist:
 
-for n in range(100,1000,100):
+# verify it's big-O
+for n in range(10000,100000,10000):
     start = time.time()
     findnum(n, 2)
     end = time.time()
